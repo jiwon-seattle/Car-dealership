@@ -1,0 +1,11 @@
+C:\Users\Jiwon Han\desktop\coding\c#\Car\bin\Debug\netcoreapp2.2\Car.deps.json
+C:\Users\Jiwon Han\desktop\coding\c#\Car\bin\Debug\netcoreapp2.2\Car.runtimeconfig.json
+C:\Users\Jiwon Han\desktop\coding\c#\Car\bin\Debug\netcoreapp2.2\Car.runtimeconfig.dev.json
+C:\Users\Jiwon Han\desktop\coding\c#\Car\bin\Debug\netcoreapp2.2\Car.dll
+C:\Users\Jiwon Han\desktop\coding\c#\Car\bin\Debug\netcoreapp2.2\Car.pdb
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.csprojAssemblyReference.cache
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.csproj.CoreCompileInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.AssemblyInfoInputs.cache
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.AssemblyInfo.cs
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.dll
+C:\Users\Jiwon Han\desktop\coding\c#\Car\obj\Debug\netcoreapp2.2\Car.pdb
