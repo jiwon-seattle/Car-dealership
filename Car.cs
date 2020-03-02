@@ -42,7 +42,7 @@ public class Program
     Console.WriteLine("Enter mixunum miles: ");
     int.TryParse(Console.ReadLine(), out int maxMiles);
 
-    List<Car> CarsMatchingSearch = new List<Car>();
+    List<Car> CarsMatchingSearch = new List<Car>(); 
 
     foreach(Car automobile in Cars)
       {
