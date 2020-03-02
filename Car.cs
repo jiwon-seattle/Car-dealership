@@ -35,8 +35,7 @@ public class Program
     string stringMaxPrice = Console.ReadLine();
     int.TryParse(stringMaxPrice, out int maxPrice);
 
-    List<Car> CarsMatchingSearch = new List<Car>();
-    list 
+    List<Car> CarsMatchingSearch = new List<Car>(); 
 
     foreach(Car automobile in Cars)
     {
