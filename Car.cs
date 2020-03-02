@@ -36,6 +36,7 @@ public class Program
     int.TryParse(stringMaxPrice, out int maxPrice);
 
     List<Car> CarsMatchingSearch = new List<Car>();
+    list 
 
     foreach(Car automobile in Cars)
     {
