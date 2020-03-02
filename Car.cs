@@ -4,12 +4,14 @@ using System.Collections.Generic;
 public class Car
 {
   public string MakeModel;
+  public string CarInfo;
   public int Price;
   public int Miles;
 
-  public Car(string makeModel, int price, int miles)
+  public Car(string makeModel, string carInfo, int price, int miles)
   {
     MakeModel = makeModel;
+    CarInfo = carInfo;
     Price = price;
     Miles = miles;
   }
@@ -18,38 +20,49 @@ public class Car
   {
     return (Price < maxPrice);
   }
+  public bool WorthMiles(int maxMiles)
+  {
+    return (Miles < maxMiles);
+  }
 }
 
 public class Program
 {
   public static void Main()
   {
-    Car volkswagen = new Car("1964 Volkswagen Thing", 1100, 367838);
-    Car yugo = new Car("1980 Yugo Koral", 700, 56000);
-    Car ford = new Car("1988 Ford Country Squire", 1400, 239001);
-    Car amc = new Car("1976 AMC Pacer", 400, 198000);
+    Car volkswagen = new Car("1964 Volkswagen", "Luxury and classic car", 1100, 367838);
+    Car yugo = new Car("1980 Yugo Koral", "Modern and stabel car", 700, 56000);
+    Car ford = new Car("1988 Ford Country Squire", "Friendly and reliable car", 1400, 239001);
+    Car amc = new Car("1976 AMC Pacer", "Cost effective and trustworthy car", 400, 198000);
 
-    List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc};
+    List<Car> Cars = new List<Car>() {volkswagen, yugo, ford, amc};
 
-    Console.WriteLine("Enter maximum price: ");
-    string stringMaxPrice = Console.ReadLine();
-    int.TryParse(stringMaxPrice, out int maxPrice);
+    Console.WriteLine("Enter maxinum price: ");
+    int.TryParse(Console.ReadLine(), out int maxPrice);
+    Console.WriteLine("Enter mixunum miles: ");
+    int.TryParse(Console.ReadLine(), out int maxMiles);
 
     List<Car> CarsMatchingSearch = new List<Car>(); 
 
     foreach(Car automobile in Cars)
-    {
-      if (automobile.WorthBuying(maxPrice))
       {
-        CarsMatchingSearch.Add(automobile);
+        if (automobile.WorthBuying(maxPrice) && automobile.WorthMiles(maxMiles))
+        {
+          CarsMatchingSearch.Add(automobile);
+        }
       }
-    }
 
+
+    if (CarsMatchingSearch.Count < 1)
+    {
+      Console.WriteLine("Sorry, no cars match the budget constraint");
+    }
+    else
+    {
     foreach(Car automobile in CarsMatchingSearch)
     {
-      Console.WriteLine(automobile.MakeModel);
+      Console.WriteLine(automobile.MakeModel + ", " + automobile.CarInfo);
+    }
     }
   }
-
-
 }
