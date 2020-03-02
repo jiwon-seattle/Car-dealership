@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car\\Car.csproj": {}
+    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car\\Car.csproj": {
+    "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car\\Car.csproj",
+        "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj",
         "projectName": "Car",
-        "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car\\Car.csproj",
+        "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj",
         "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car\\obj\\",
+        "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

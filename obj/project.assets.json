@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\Car\\Car.csproj",
+      "projectUniqueName": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj",
       "projectName": "Car",
-      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\Car\\Car.csproj",
+      "projectPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\Car.csproj",
       "packagesPath": "C:\\Users\\Jiwon Han\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\Car\\obj\\",
+      "outputPath": "C:\\Users\\Jiwon Han\\desktop\\coding\\c#\\car-dealership\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
