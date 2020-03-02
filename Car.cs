@@ -1,30 +1,16 @@
 using System;
-using System.Collections.Generic;
 
-public class Car
+namespace Dealership.Models
 {
-  public string MakeModel;
-  public string CarInfo;
-  public int Price;
-  public int Miles;
+  public class Car
+  {
+    public string MakeModel;
+    public string CarInfo;
+    public int Price;
+    public int Miles;
 
-  public Car(string makeModel, string carInfo, int price, int miles)
-  {
-    MakeModel = makeModel;
-    CarInfo = carInfo;
-    Price = price;
-    Miles = miles;
-  }
 
-  public bool WorthBuying(int maxPrice)
-  {
-    return (Price < maxPrice);
-  }
-  public bool WorthMiles(int maxMiles)
-  {
-    return (Miles < maxMiles);
-  }
-}
+public Car(string makeModel, string carInfo, int price, int miles)
 
 public class Program
 {
@@ -55,14 +41,19 @@ public class Program
 
     if (CarsMatchingSearch.Count < 1)
     {
-      Console.WriteLine("Sorry, no cars match the budget constraint");
+      MakeModel = makeModel;
+      CarInfo = carInfo;
+      Price = price;
+      Miles = miles;
     }
-    else
+
+    public bool WorthBuying(int maxPrice)
     {
-    foreach(Car automobile in CarsMatchingSearch)
-    {
-      Console.WriteLine(automobile.MakeModel + ", " + automobile.CarInfo);
+      return (Price < maxPrice);
     }
+    public bool WorthMiles(int maxMiles)
+    {
+      return (Miles < maxMiles);
     }
   }
 }
